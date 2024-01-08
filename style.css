@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800;900&display=swap');
+
 
 * {
     margin: 0;
@@ -23,6 +25,9 @@ body {
     border: 2px solid black;
     box-shadow: 10px 10px 5px 0px  hsl(0, 0%, 7%);
 
+}
+.attribution:hover{
+    box-shadow: 15px 15px 10px 0px  hsl(0, 0%, 7%); 
 }
 
 .attribution svg {
@@ -58,6 +63,10 @@ h1 {
     font-weight: bold;
     font-size: 1.5rem;
 
+}
+h1:hover{
+    cursor: pointer;
+    color:hsl(47, 88%, 63%) ;
 }
 
 p {
